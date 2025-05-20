@@ -46,7 +46,7 @@ try:
 except:
     st.sidebar.warning("⚠️ Logo failed to load.")
 st.title("🛠️ Real-Time Shaker Monitoring Dashboard")
-        shaker_col = 'SHAKER #3 (PERCENT)'
+    shaker_col = 'SHAKER #3 (PERCENT)'
         shaker_avg = df[shaker_col].mean()
         shaker_min = df[shaker_col].min()
         shaker_max = df[shaker_col].max()
